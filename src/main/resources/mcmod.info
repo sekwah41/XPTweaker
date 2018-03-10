@@ -1,0 +1,16 @@
+[
+{
+  "modid": "xptweaker",
+  "name": "XP Tweaker",
+  "description": "A mod for tweaking in game xp values",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["sekwah41"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

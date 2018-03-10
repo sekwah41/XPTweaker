@@ -1,0 +1,5 @@
+{
+  "net.minecraft.entity.monster.EntitySkeleton" : {
+    "xp" : 100000
+  }
+}
