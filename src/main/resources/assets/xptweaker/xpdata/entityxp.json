@@ -1,5 +1,6 @@
 {
   "net.minecraft.entity.monster.EntitySkeleton" : {
-    "xp" : 100000
+    "defaultXP" : 10,
+    "playerXP" : 10000
   }
 }

@@ -32,7 +32,12 @@ public class EventHook {
         }
         if(entityHashMap.containsKey(entityName)) {
             EntityData entityData = entityHashMap.get(entityName);
-            event.setDroppedExperience(entityData.getXp());
+            if(entityData.getPlayerXP() != -1 && event.getAttackingPlayer() != null) {
+                event.setDroppedExperience(entityData.getPlayerXP());
+            }
+            else if(entityData.getXP() != -1){
+                event.setDroppedExperience(entityData.getXP());
+            }
         }
 
     }

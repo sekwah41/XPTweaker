@@ -1,9 +1,14 @@
 package com.sekwah.xptweaker.data;
 
 public class EntityData {
-    private int xp = 0;
+    private int defaultXP = -1;
+    private int playerXP = -1;
 
-    public int getXp() {
-        return xp;
+    public int getXP() {
+        return this.defaultXP;
+    }
+
+    public int getPlayerXP() {
+        return this.playerXP;
     }
 }
